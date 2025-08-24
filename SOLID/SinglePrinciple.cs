@@ -31,18 +31,18 @@ namespace SOLID
             }
         }
 
-        ////WITHOUT OCP(Violation)
-        //public class NotificationWithoutOCP
-        //{
-        //    public string SendEmail(string message)
-        //    {
-        //        return "Send Email";
-        //    }
-        //    public string SendSMS(string message)
-        //    {
-        //        return "Send SMS";
-        //    }
-        //}
+        //WITHOUT OCP(Violation)
+        public class NotificationWithoutOCP
+        {
+            public string SendEmail(string message)
+            {
+                return "Send Email";
+            }
+            public string SendSMS(string message)
+            {
+                return "Send SMS";
+            }
+        }
 
         //WITH OCP(Adhering)
         public interface INotification
